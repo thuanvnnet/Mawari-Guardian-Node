@@ -95,6 +95,7 @@ The burner wallet needs MAWARI tokens to pay for on-chain transaction fees.
 1.  Open your MetaMask wallet (your main Owner Wallet).
 2.  Initiate a **"Send"** transaction.
 3.  Send exactly **1 MAWARI token** to the **Burner Wallet Address** you found in the logs.
+4.  Check log `docker ps -a``docker logs -f id_container`
 
 ---
 
