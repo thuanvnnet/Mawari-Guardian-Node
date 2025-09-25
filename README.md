@@ -80,7 +80,7 @@ This new process runs the node directly via Docker.
 2.  **Launch the Docker Container**
     Execute the command below. It will create a `~/mawari` directory, pull the latest node image, and start the container.
     ```bash
-    export MNTESTNET_IMAGE=us-east4-docker.pkg.dev/mawarinetwork-dev/mwr-net-d-car-uses4-public-docker-registry-e62e/mawari-node:latest && mkdir -p ~/mawari && docker run --pull always -v ~/mawari:/app/cache -e OWNERS_ALLOWLIST=$OWNER_ADDRESS $MNTESTNET_IMAGE
+    export MNTESTNET_IMAGE=us-east4-docker.pkg.dev/mawarinetwork-dev/mwr-net-d-car-uses4-public-docker-registry-e62e/mawari-node:latest && mkdir -p ~/mawari && docker run -d --pull always -v ~/mawari:/app/cache -e OWNERS_ALLOWLIST=$OWNER_ADDRESS $MNTESTNET_IMAGE
     ```
 
 3.  **Find Your Burner (Operator) Wallet Address**
