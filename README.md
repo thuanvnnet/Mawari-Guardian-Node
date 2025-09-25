@@ -59,7 +59,7 @@ The Mawari Guardian Node runs inside Docker containers. We'll use the official s
 
 ```bash
 # Download the official Docker installation script.
-curl -fsSL [https://get.docker.com](https://get.docker.com) -o get-docker.sh
+curl -fsSL https://get.docker.com -o get-docker.sh
 
 # Run the script with sudo privileges to install Docker.
 sudo sh get-docker.sh
