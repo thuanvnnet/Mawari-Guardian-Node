@@ -1,4 +1,4 @@
-# Mawari Guardian Node Setup Guide (Updated September 2025)
+# Mawari Guardian Node Setup Guide
 
 This guide provides a detailed, step-by-step walkthrough for setting up a Mawari Guardian Node on the testnet, based on the latest official documentation. The installation process has been significantly updated.
 
