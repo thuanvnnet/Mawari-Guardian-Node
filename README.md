@@ -60,10 +60,8 @@ Now, we will install the node software on your server (VPS).
 
 Ensure Docker is installed on your server. If not, you can run the following commands on Ubuntu:
 ```bash
-# Download and run the official Docker installation script
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
-
 # Add your user to the docker group to run commands without sudo
 sudo usermodel -aG docker $USER
 ```
